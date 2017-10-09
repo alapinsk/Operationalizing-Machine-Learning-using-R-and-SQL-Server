@@ -23,5 +23,5 @@ Tested on SQL Server 2017, Visual Studio 2017, .NET Core 2.0
 
 ### REST API (postman)
 
-![ARIMA](Plots/PostmanTestAPI.png)
-![ARIMA](Plots/PostmanTestAPIsinglevalue.png)
+![APIall](Plots/PostmanTestAPI.PNG)
+![APIone](Plots/PostmanTestAPIsinglevalue.PNG)
