@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{DA7A21FA-8162-4350-AD77-A8D1B671F3ED}") = "Operationalizing Machine Learning", "Operationalizing Machine Learning\Operationalizing Machine Learning.rxproj", "{572F18D4-4B9E-4F21-A498-F7162E80E62F}"
+Project("{DA7A21FA-8162-4350-AD77-A8D1B671F3ED}") = "R", "R\R.rxproj", "{F8C1FE1D-8067-4107-9691-5D4EF1F12C4E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python", "Python\Python.pyproj", "{038A87C4-BAEB-446A-A635-D43F88DC4BAE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL_Server", "SQL Server\SQL_Server.sqlproj", "{099EBA0E-34B1-4E2E-B0D0-225BF180211C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTapi", "RESTapi\RESTapi.csproj", "{0363B010-256C-495A-92C6-82CCB61AF387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{82802757-D7FA-41AD-AFDC-84076C49D341}"
+	ProjectSection(SolutionItems) = preProject
+		Plots\PlotlyForecastARIMA.png = Plots\PlotlyForecastARIMA.png
+		Plots\PostmanTestAPI.PNG = Plots\PostmanTestAPI.PNG
+		Plots\PostmanTestAPIsinglevalue.PNG = Plots\PostmanTestAPIsinglevalue.PNG
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +25,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{572F18D4-4B9E-4F21-A498-F7162E80E62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{572F18D4-4B9E-4F21-A498-F7162E80E62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{572F18D4-4B9E-4F21-A498-F7162E80E62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{572F18D4-4B9E-4F21-A498-F7162E80E62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C1FE1D-8067-4107-9691-5D4EF1F12C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C1FE1D-8067-4107-9691-5D4EF1F12C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C1FE1D-8067-4107-9691-5D4EF1F12C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C1FE1D-8067-4107-9691-5D4EF1F12C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038A87C4-BAEB-446A-A635-D43F88DC4BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038A87C4-BAEB-446A-A635-D43F88DC4BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038A87C4-BAEB-446A-A635-D43F88DC4BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038A87C4-BAEB-446A-A635-D43F88DC4BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099EBA0E-34B1-4E2E-B0D0-225BF180211C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099EBA0E-34B1-4E2E-B0D0-225BF180211C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099EBA0E-34B1-4E2E-B0D0-225BF180211C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{099EBA0E-34B1-4E2E-B0D0-225BF180211C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099EBA0E-34B1-4E2E-B0D0-225BF180211C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099EBA0E-34B1-4E2E-B0D0-225BF180211C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0363B010-256C-495A-92C6-82CCB61AF387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0363B010-256C-495A-92C6-82CCB61AF387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0363B010-256C-495A-92C6-82CCB61AF387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0363B010-256C-495A-92C6-82CCB61AF387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
